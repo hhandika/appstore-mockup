@@ -1,12 +1,17 @@
 [project]
 name = "appstore-mockup"
 version = "0.1.0"
-description = "App store mockup generator CLI tool."
+description = "Mockup generator CLI tool for app store listings."
 readme = "README.md"
+authors = [
+    { name = "Heru Handika" }
+]
+license = { text = "MIT License" }
 requires-python = ">=3.12"
 dependencies = [
     "pillow>=12.2.0",
     "pydantic>=2.0.0",
+    "tqdm>=4.68.2",
 ]
 
 [project.scripts]
