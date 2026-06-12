@@ -23,14 +23,13 @@ class BatchRunner:
         pts, logical_width = templates.get(self.config.template, templates["ios"])
         return int(image_width * (pts / logical_width))
 
-    def _process_single_file(self, file_path: str, output_dir: str) -> None:
+    def _process_single_file(self, file_path: str, output_dir: str) -> str | None:
         try:
             image = Image.open(file_path).convert("RGBA")
         except UnidentifiedImageError:
-            return
+            return None
         except Exception as e:
-            print(f"Error opening {file_path}: {e}")
-            return
+            return None
 
         radius = self._calculate_radius(image.width)
         
@@ -46,15 +45,35 @@ class BatchRunner:
         output_path = os.path.join(output_dir, f"{name}.{self.config.format}")
         
         self.exporter.export(image, output_path, self.config.format)
-        print(f"Exported: {output_path}")
+        return output_path
 
     def process_path(self, input_path: str, output_dir: str) -> None:
+        files_to_process = []
         if os.path.isfile(input_path):
-            self._process_single_file(input_path, output_dir)
+            files_to_process.append(input_path)
         elif os.path.isdir(input_path):
             for root, _, files in os.walk(input_path):
                 for file in files:
-                    file_path = os.path.join(root, file)
-                    self._process_single_file(file_path, output_dir)
+                    files_to_process.append(os.path.join(root, file))
         else:
             print(f"Invalid input path: {input_path}")
+            return
+
+        if not files_to_process:
+            print("No files to process.")
+            return
+
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        from tqdm import tqdm
+
+        with ThreadPoolExecutor() as executor:
+            futures = {
+                executor.submit(self._process_single_file, path, output_dir): path
+                for path in files_to_process
+            }
+            
+            with tqdm(total=len(futures), desc="Processing mockups", unit="file") as pbar:
+                for future in as_completed(futures):
+                    # We can access future.result() if needed, but here we just update progress
+                    future.result()
+                    pbar.update(1)
