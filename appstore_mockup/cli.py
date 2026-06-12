@@ -1,5 +1,8 @@
 import argparse
-from appstore_mockup.runner import process_path
+from appstore_mockup.runner import BatchRunner
+from appstore_mockup.editor import ImageEditor
+from appstore_mockup.exporter import ImageExporter
+from appstore_mockup.config import MockupConfig
 
 def parse_args(args: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="App Store Mockup Generator")
@@ -13,25 +16,22 @@ def parse_args(args: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("-r", "--radius", type=int, default=None, help="Corner rounding radius in pixels (overrides template default)")
     return parser.parse_args(args)
 
-TEMPLATES = {
-    "ios": 45,
-    "android": 36,
-    "macos": 16,
-    "pc": 8,
-}
-
 def main() -> None:
     args = parse_args()
-    radius = args.radius if args.radius is not None else TEMPLATES[args.template]
     
-    config = {
-        "format": args.format,
-        "border_type": args.border_type,
-        "border_size": args.border_size,
-        "border_color": args.border_color,
-        "radius": radius,
-    }
-    process_path(args.input, args.output_dir, config)
+    config = MockupConfig(
+        format=args.format,
+        border_type=args.border_type,
+        border_size=args.border_size,
+        border_color=args.border_color,
+        radius=args.radius,
+        template=args.template,
+    )
+    
+    editor = ImageEditor()
+    exporter = ImageExporter()
+    runner = BatchRunner(config, editor, exporter)
+    runner.process_path(args.input, args.output_dir)
 
 if __name__ == "__main__":
     main()

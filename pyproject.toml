@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pillow>=12.2.0",
+    "pydantic>=2.0.0",
 ]
 
 [project.scripts]
@@ -18,4 +19,7 @@ dev = [
 
 [tool.uv]
 package = true
+
+[tool.setuptools.packages.find]
+include = ["appstore_mockup*"]
 
