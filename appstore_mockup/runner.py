@@ -77,3 +77,6 @@ class BatchRunner:
                     # We can access future.result() if needed, but here we just update progress
                     future.result()
                     pbar.update(1)
+
+        rel_output_dir = os.path.relpath(output_dir)
+        print(f"\n✨ Successfully exported to: {rel_output_dir}")
