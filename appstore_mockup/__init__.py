@@ -1,0 +1,1 @@
+"""Appstore Mockup package."""

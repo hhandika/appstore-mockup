@@ -1,10 +1,21 @@
 [project]
 name = "appstore-mockup"
 version = "0.1.0"
-description = "Add your description here"
+description = "App store mockup generator CLI tool."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pillow>=12.2.0",
-    "psd-tools>=1.17.2",
 ]
+
+[project.scripts]
+appstore-mockup = "appstore_mockup.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.uv]
+package = true
+
