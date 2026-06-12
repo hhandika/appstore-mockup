@@ -221,3 +221,9 @@ data/
 results/
 dist/
 output/
+
+# images format
+*.png
+*.webp
+*.jpeg
+*.jpg

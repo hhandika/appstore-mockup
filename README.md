@@ -37,23 +37,36 @@ uvx appstore-mockup <input_path> [options]
 | `-o`, `--output-dir` | Target directory for the exported mockups. | `./output` |
 | `-f`, `--format` | Export image format (`png` or `webp`). | `png` |
 | `-t`, `--border-type` | Type of outer border (`color` or `blur`). | `color` |
+| `--template` | Device template for default corner radius (`ios`, `macos`, `android`, `pc`). | `ios` |
 | `-s`, `--border-size` | Width of the outer border in pixels. | `0` |
 | `-c`, `--border-color` | Hex or RGB color code for `color` border type. | `#FFFFFF` |
-| `-r`, `--radius` | Corner rounding radius in pixels. | `45` |
+| `-r`, `--radius` | Corner rounding radius in pixels (overrides template). | template default |
+
+### Templates
+The `--template` option sets the default corner rounding radius to match specific devices:
+- `ios` (default): 45px (Standard modern iPhone)
+- `android`: 36px (Google Pixel)
+- `macos`: 16px (MacBook Screen)
+- `pc`: 8px (Surface Laptop)
 
 ### Examples
 
-**1. Process a single image with default rounded corners:**
+**1. Process a single image with default iOS rounded corners:**
 ```bash
 uvx appstore-mockup ./screenshot.png
 ```
 
-**2. Add a glassmorphism (blurry) border and export as WEBP:**
+**2. Use the Android template to match a Pixel device:**
+```bash
+uvx appstore-mockup ./screenshot.png --template android
+```
+
+**3. Add a glassmorphism (blurry) border and export as WEBP:**
 ```bash
 uvx appstore-mockup ./images -t blur -s 40 -f webp -o ./dist
 ```
 
-**3. Add a solid dark border with a specific corner radius:**
+**4. Add a solid dark border with a specific corner radius:**
 ```bash
 uvx appstore-mockup ./screenshot.png -t color -s 12 -c "#1c1c1e" -r 30
 ```
