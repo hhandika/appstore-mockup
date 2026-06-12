@@ -11,13 +11,23 @@ A Python CLI utility to automate the creation of app store mockups. It allows yo
 
 ## Installation
 
-This tool uses [uv](https://github.com/astral-sh/uv). Install it globally:
+You can install the tool via `pip` or `uv`:
+
+### Using pip
+
+```bash
+pip install appstore-mockup
+```
+
+### Using uv (Recommended)
+
+[uv](https://github.com/astral-sh/uv) is an extremely fast Python package installer. Install the tool globally:
 
 ```bash
 uv tool install appstore-mockup
 ```
 
-Alternatively, you can run it directly without prior installation:
+Alternatively, you can run it directly without prior installation using `uvx`:
 
 ```bash
 uvx appstore-mockup --help
