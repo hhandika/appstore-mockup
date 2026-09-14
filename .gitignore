@@ -227,3 +227,6 @@ output/
 *.webp
 *.jpeg
 *.jpg
+
+# MacOS file
+.DS_Store

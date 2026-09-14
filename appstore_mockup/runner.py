@@ -1,6 +1,6 @@
 import os
 from PIL import Image, UnidentifiedImageError
-from appstore_mockup.config import MockupConfig
+from appstore_mockup.config import MockupConfig, template_radius
 from appstore_mockup.editor import ImageEditor
 from appstore_mockup.exporter import ImageExporter
 
@@ -13,15 +13,7 @@ class BatchRunner:
     def _calculate_radius(self, image_width: int) -> int:
         if self.config.radius is not None:
             return self.config.radius
-            
-        templates = {
-            "ios": (47.33, 393),       # iPhone 15 Pro
-            "android": (36, 412),      # Pixel 8
-            "macos": (16, 1440),       # MacBook Pro
-            "pc": (8, 1504),           # Surface Laptop
-        }
-        pts, logical_width = templates.get(self.config.template, templates["ios"])
-        return int(image_width * (pts / logical_width))
+        return template_radius(self.config.template, image_width)
 
     def _process_single_file(self, file_path: str, output_dir: str) -> str | None:
         try:

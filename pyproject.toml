@@ -28,3 +28,6 @@ package = true
 [tool.setuptools.packages.find]
 include = ["appstore_mockup*"]
 
+[tool.setuptools.package-data]
+appstore_mockup = ["jsx/*.jsx"]
+
