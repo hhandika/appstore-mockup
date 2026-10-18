@@ -1,0 +1,203 @@
+{
+  "canvas": {
+    "width": 2880,
+    "height": 1800
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#BCE6D5",
+        "position": 0
+      },
+      {
+        "color": "#E2F4EC",
+        "position": 0.5
+      },
+      {
+        "color": "#F8FAE1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots",
+  "screens": [
+    {
+      "id": "01-specimens",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Every specimen, every part",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "source_dir": "../screenshots",
+          "image": "Screenshot 2026-09-13 at 4.44.38 PM.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    },
+    {
+      "id": "02-sites",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Describe a site once, reuse it everywhere",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "source_dir": "../screenshots",
+          "image": "Screenshot 2026-09-13 at 4.45.30 PM.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    },
+    {
+      "id": "03-coordinates",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Trap lines and camps, mapped as you go",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "image": "coordinate-management.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    },
+    {
+      "id": "04-media",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Media filed with the record",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "image": "media-gallery.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    },
+    {
+      "id": "05-statistics",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Watch the inventory take shape",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "source_dir": "../screenshots",
+          "image": "Screenshot 2026-09-13 at 4.45.57 PM.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    },
+    {
+      "id": "06-labels",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Print-ready specimen labels",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "image": "mac-label-export.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    },
+    {
+      "id": "07-templates",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Design templates for PDF and print",
+          "font": "headline",
+          "size": 92,
+          "top": 0.062,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "Mac",
+          "image": "mac-template-design.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.5556,
+          "max_width": 0.9,
+          "max_height": 0.7444
+        }
+      ]
+    }
+  ]
+}

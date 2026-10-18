@@ -6,6 +6,7 @@ from appstore_mockup.exporter import ImageExporter
 from appstore_mockup.config import MockupConfig, TEMPLATE_RADII
 from appstore_mockup.layout import LayoutSpec
 from appstore_mockup.compose import ScreenComposer
+from appstore_mockup.stores import check_canvas
 from appstore_mockup.photoshop import DEFAULT_APP, PhotoshopBuilder
 
 def parse_args(args: list[str] | None = None) -> argparse.Namespace:
@@ -63,6 +64,9 @@ def run_mockup(args: argparse.Namespace) -> None:
 
 def run_compose(args: argparse.Namespace) -> None:
     spec = LayoutSpec.load(args.spec)
+    warning = check_canvas(spec.canvas.width, spec.canvas.height)
+    if warning:
+        print(f"⚠️  {warning}")
     manifest = ScreenComposer(spec).compose_all(args.output_dir, args.only)
     print(f"✨ Composed screens. Manifest: {manifest}")
 

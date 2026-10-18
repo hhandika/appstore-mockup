@@ -1,0 +1,69 @@
+{
+  "canvas": { "width": 1440, "height": 2560 },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      { "color": "#BCE6D5", "position": 0 },
+      { "color": "#E2F4EC", "position": 0.5 },
+      { "color": "#F8FAE1", "position": 1 }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots",
+  "screens": [
+    {
+      "id": "01-specimens",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Every specimen,\nevery part", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "image": "phone-specimen-part.png", "radius": 92, "crop": [0, 180, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    },
+    {
+      "id": "02-coordinates",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Unlimited points\nfor every site", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "image": "phone-coordinates.png", "radius": 92, "crop": [0, 180, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    },
+    {
+      "id": "03-media",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Media filed\nwith the record", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "image": "phone-media-info.png", "radius": 92, "crop": [0, 180, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    },
+    {
+      "id": "04-statistics",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Watch the inventory\ntake shape", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "source_dir": "../_captures", "image": "iphone-statistics.png", "radius": 96, "crop": [0, 190, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    },
+    {
+      "id": "05-projects",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "One catalog\nper expedition", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "source_dir": "../_captures", "image": "iphone-home.png", "radius": 96, "crop": [0, 190, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    },
+    {
+      "id": "06-darwin-core",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Darwin Core and\nFrictionless Data", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "image": "phone-export-settings.png", "radius": 92, "crop": [0, 180, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    },
+    {
+      "id": "07-qr-transfer",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Scan taxa from\nanother device", "font": "headline", "size": 92, "top": 0.05, "max_width": 0.9 },
+        { "type": "device", "name": "Phone", "source_dir": "../screenshots", "image": "iphoneScan.png", "radius": 88, "crop": [0, 180, 0, 0], "cx": 0.5, "cy": 0.5586, "max_width": 0.9, "max_height": 0.7734 }
+      ]
+    }
+  ]
+}

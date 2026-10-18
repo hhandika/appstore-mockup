@@ -1,0 +1,218 @@
+{
+  "canvas": {
+    "width": 1398,
+    "height": 2034
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#BCE6D5",
+        "position": 0
+      },
+      {
+        "color": "#E2F4EC",
+        "position": 0.5
+      },
+      {
+        "color": "#F8FAE1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "../_captures/duo-outer",
+  "screens": [
+    {
+      "id": "01-specimens",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Every specimen,\nevery part",
+          "font": "headline",
+          "size": 92,
+          "top": 0.05,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-outer",
+          "image": "specimen-parts.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.578,
+          "max_width": 0.9,
+          "max_height": 0.775
+        }
+      ]
+    },
+    {
+      "id": "02-coordinates",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Unlimited points\nfor every site",
+          "font": "headline",
+          "size": 92,
+          "top": 0.05,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-outer",
+          "image": "coordinates.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.578,
+          "max_width": 0.9,
+          "max_height": 0.775
+        }
+      ]
+    },
+    {
+      "id": "03-media",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Media filed\nwith the record",
+          "font": "headline",
+          "size": 92,
+          "top": 0.05,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-outer",
+          "image": "media-info.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.578,
+          "max_width": 0.9,
+          "max_height": 0.775
+        }
+      ]
+    },
+    {
+      "id": "04-statistics",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Watch the inventory\ntake shape",
+          "font": "headline",
+          "size": 92,
+          "top": 0.05,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-outer",
+          "image": "statistics.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.578,
+          "max_width": 0.9,
+          "max_height": 0.775
+        }
+      ]
+    },
+    {
+      "id": "05-projects",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "One catalog\nper expedition",
+          "font": "headline",
+          "size": 92,
+          "top": 0.05,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-outer",
+          "image": "home.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.578,
+          "max_width": 0.9,
+          "max_height": 0.775
+        }
+      ]
+    },
+    {
+      "id": "06-darwin-core",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Darwin Core and\nFrictionless Data",
+          "font": "headline",
+          "size": 92,
+          "top": 0.05,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-outer",
+          "image": "darwin-core.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.578,
+          "max_width": 0.9,
+          "max_height": 0.775
+        }
+      ]
+    }
+  ]
+}

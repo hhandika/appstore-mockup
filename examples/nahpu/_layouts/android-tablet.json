@@ -1,0 +1,107 @@
+{
+  "canvas": { "width": 2560, "height": 1440 },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      { "color": "#BCE6D5", "position": 0 },
+      { "color": "#E2F4EC", "position": 0.5 },
+      { "color": "#F8FAE1", "position": 1 }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots",
+  "screens": [
+    {
+      "id": "01-specimens",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Every specimen field\non one screen", "font": "headline", "size": 80, "cx": 0.29, "top": 0.4375, "max_width": 0.46 },
+        {
+          "type": "device", "name": "Tablet", "image": "specimen-record.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [1600, 2352, 1668, 2420], "color": "#FFFFFF" }],
+          "cx": 0.7, "cy": 0.5, "max_width": 0.6, "max_height": 0.861
+        }
+      ]
+    },
+    {
+      "id": "02-sites",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Describe a site once, reuse it everywhere", "font": "headline", "size": 76, "top": 0.065, "max_width": 0.92 },
+        {
+          "type": "device", "name": "Tablet landscape", "image": "sites.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [2352, 1600, 2420, 1668], "color": "#000000" }],
+          "cx": 0.4424, "cy": 0.559, "max_width": 0.5879, "max_height": 0.9
+        },
+        {
+          "type": "device", "name": "Tablet portrait", "image": "site-form-qr.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [1600, 2352, 1668, 2420], "color": "#FFFFFF" }],
+          "cx": 0.7141, "cy": 0.579, "max_width": 0.9, "max_height": 0.6944
+        }
+      ]
+    },
+    {
+      "id": "03-statistics",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Watch the inventory take shape", "font": "headline", "size": 76, "top": 0.065, "max_width": 0.92 },
+        {
+          "type": "device", "name": "Tablet", "image": "stat-window.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [2352, 1600, 2420, 1668], "color": "#000000" }],
+          "cx": 0.5, "cy": 0.559, "max_width": 0.9, "max_height": 0.743
+        }
+      ]
+    },
+    {
+      "id": "04-narrative",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "A field journal for the day", "font": "headline", "size": 76, "top": 0.065, "max_width": 0.92 },
+        {
+          "type": "device", "name": "Tablet landscape", "image": "ipad-narrative-markdown.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [2352, 1600, 2420, 1668], "color": "#000000" }],
+          "cx": 0.4424, "cy": 0.559, "max_width": 0.5879, "max_height": 0.9
+        },
+        {
+          "type": "device", "name": "Tablet portrait", "image": "ipad-narrative-text.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [1600, 2352, 1668, 2420], "color": "#FFFFFF" }],
+          "cx": 0.7141, "cy": 0.579, "max_width": 0.9, "max_height": 0.6944
+        }
+      ]
+    },
+    {
+      "id": "05-projects",
+      "elements": [
+        {
+          "type": "device", "name": "Tablet", "source_dir": "../_captures", "image": "ipad-home.png", "radius": 77, "crop": [0, 64, 0, 0],
+          "retouch": [{ "box": [1996, 2684, 2064, 2752], "color": "#808080" }],
+          "cx": 0.3, "cy": 0.5, "max_width": 0.6, "max_height": 0.861
+        },
+        { "type": "text", "name": "Caption", "text": "One catalog\nper expedition", "font": "headline", "size": 80, "cx": 0.71, "top": 0.4375, "max_width": 0.46 }
+      ]
+    },
+    {
+      "id": "06-export-presets",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Build your own export presets", "font": "headline", "size": 76, "top": 0.065, "max_width": 0.92 },
+        {
+          "type": "device", "name": "Tablet", "image": "ipad-tabular.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [2352, 1600, 2420, 1668], "color": "#000000" }],
+          "cx": 0.5, "cy": 0.559, "max_width": 0.9, "max_height": 0.743
+        }
+      ]
+    },
+    {
+      "id": "07-qr-transfer",
+      "elements": [
+        { "type": "text", "name": "Caption", "text": "Scan taxa from\nanother device", "font": "headline", "size": 80, "cx": 0.29, "top": 0.4375, "max_width": 0.46 },
+        {
+          "type": "device", "name": "Tablet", "source_dir": "../screenshots", "image": "ipadScan.png", "radius": 62, "crop": [0, 60, 0, 0],
+          "retouch": [{ "box": [1600, 2352, 1668, 2420], "color": "#000000" }],
+          "cx": 0.7, "cy": 0.5, "max_width": 0.6, "max_height": 0.861
+        }
+      ]
+    }
+  ]
+}

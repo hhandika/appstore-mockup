@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Per-element `source_dir` for device and image elements.
 - `photoshop` subcommand that builds layered PSD masters, with smart-object screenshots and editable captions, and flattened PNG exports (macOS).
 - `ipad` corner radius template.
+- `duo` and `duo-outer` corner radius templates for the iPhone Duo inner and outer displays.
+- `compose` warns when a canvas matches no App Store screenshot, product page header, or search results size.
 
 ### Changed
 - Screenshots with an embedded colour profile are converted to sRGB when composed.

@@ -1,0 +1,103 @@
+{
+  "canvas": {
+    "width": 3840,
+    "height": 2160
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#BCE6D5",
+        "position": 0
+      },
+      {
+        "color": "#E2F4EC",
+        "position": 0.5
+      },
+      {
+        "color": "#F8FAE1",
+        "position": 1
+      }
+    ]
+  },
+  "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots",
+  "screens": [
+    {
+      "id": "01-specimens",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Desktop",
+          "source_dir": "../screenshots",
+          "image": "Screenshot 2026-09-13 at 4.44.38 PM.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.47,
+          "max_width": 0.88,
+          "max_height": 0.84
+        }
+      ]
+    },
+    {
+      "id": "02-coordinates",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Desktop",
+          "image": "coordinate-management.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.47,
+          "max_width": 0.88,
+          "max_height": 0.84
+        }
+      ]
+    },
+    {
+      "id": "03-media",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Desktop",
+          "image": "media-gallery.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.47,
+          "max_width": 0.88,
+          "max_height": 0.84
+        }
+      ]
+    },
+    {
+      "id": "04-statistics",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Desktop",
+          "source_dir": "../screenshots",
+          "image": "Screenshot 2026-09-13 at 4.45.57 PM.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.47,
+          "max_width": 0.88,
+          "max_height": 0.84
+        }
+      ]
+    },
+    {
+      "id": "05-templates",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Desktop",
+          "image": "mac-template-design.png",
+          "radius": 60,
+          "cx": 0.5,
+          "cy": 0.47,
+          "max_width": 0.88,
+          "max_height": 0.84
+        }
+      ]
+    }
+  ]
+}

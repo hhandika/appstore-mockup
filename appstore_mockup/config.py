@@ -1,11 +1,13 @@
 from pydantic import BaseModel, Field
 from typing import Optional, Literal
 
-Template = Literal["ios", "ipad", "macos", "android", "pc"]
+Template = Literal["ios", "duo", "duo-outer", "ipad", "macos", "android", "pc"]
 
 # Display corner radius in points, and the logical screen width it belongs to.
 TEMPLATE_RADII: dict[str, tuple[float, int]] = {
     "ios": (47.33, 393),       # iPhone 15 Pro
+    "duo": (55, 669),          # iPhone Duo inner display
+    "duo-outer": (59, 466),    # iPhone Duo outer display, outside edge
     "ipad": (18, 834),         # iPad Pro 11"
     "android": (36, 412),      # Pixel 8
     "macos": (16, 1440),       # MacBook Pro

@@ -48,7 +48,7 @@ uvx appstore-mockup <input_path> [options]
 | `-o`, `--output-dir` | Target directory for the exported mockups. | `./output` |
 | `-f`, `--format` | Export image format (`png` or `webp`). | `png` |
 | `-t`, `--border-type` | Type of outer border (`color` or `blur`). | `color` |
-| `--template` | Device template for default corner radius (`ios`, `macos`, `android`, `pc`). | `ios` |
+| `--template` | Device template for default corner radius (`ios`, `duo`, `duo-outer`, `ipad`, `macos`, `android`, `pc`). | `ios` |
 | `-s`, `--border-size` | Width of the outer border in pixels. | `0` |
 | `-c`, `--border-color` | Hex or RGB color code for `color` border type. | `#FFFFFF` |
 | `-r`, `--radius` | Corner rounding radius in pixels (overrides template). | template default |
@@ -58,6 +58,8 @@ uvx appstore-mockup <input_path> [options]
 The `--template` option sets the default corner rounding radius to match specific devices:
 
 - `ios` (default): 45px (Standard modern iPhone)
+- `duo`: 55pt (iPhone Duo inner display)
+- `duo-outer`: 59pt (iPhone Duo outer display)
 - `ipad`: 18pt (iPad Pro 11")
 - `android`: 36px (Google Pixel)
 - `macos`: 16px (MacBook Screen)
@@ -131,6 +133,7 @@ It writes a flattened preview per screen to `previews/`, every layer as a canvas
 - `image` elements place a plain image, such as a logo, with optional `opacity`.
 - `device` and `image` elements can set their own `source_dir`, resolved against the spec's folder, for screens kept apart from the spec's main `source_dir`, such as fresh captures.
 - `frame` tunes the glass mat in CSS pixels of a 500px reference panel, scaled to the canvas: `border`, `color`, `backdrop_blur`, `hairline`, and the `shadow_*` values.
+- `compose` warns when the canvas matches no size App Store Connect accepts: screenshots (including iPhone Duo inner 2007×2853 and outer 1398×2034, either orientation), the product page header (3840×1646), or a 3:2 search results image (1920×1280 to 3840×2560).
 - Relative `source_dir` and font paths resolve against the spec's folder. Screenshots with an embedded colour profile, such as Display P3, are converted to sRGB.
 
 ## Photoshop masters (macOS)

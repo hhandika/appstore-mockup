@@ -1,0 +1,33 @@
+{
+  "canvas": { "width": 1920, "height": 640 },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      { "color": "#BCE6D5", "position": 0 },
+      { "color": "#E2F4EC", "position": 0.5 },
+      { "color": "#F8FAE1", "position": 1 }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "../_icons",
+  "screens": [
+    {
+      "id": "banner",
+      "elements": [
+        { "type": "text", "name": "Wordmark", "text": "NAHPU", "font": "headline", "size": 169, "tracking": 140, "top": 0.17, "color": "#0E251F" },
+        { "type": "text", "name": "Tagline", "text": "Digital field catalog for natural history", "font": "headline", "size": 38, "top": 0.53, "color": "#224D41" },
+        { "type": "image", "name": "Mammalogy", "image": "mammal.png", "cx": 0.3, "cy": 0.79, "max_height": 0.2 },
+        { "type": "image", "name": "Ornithology", "image": "bird.png", "cx": 0.38, "cy": 0.79, "max_height": 0.2 },
+        { "type": "image", "name": "Herpetology", "image": "herp.png", "cx": 0.46, "cy": 0.79, "max_height": 0.2 },
+        { "type": "image", "name": "Invertebrate zoology", "image": "insect.png", "cx": 0.54, "cy": 0.79, "max_height": 0.2 },
+        { "type": "image", "name": "Ichthyology", "image": "fish.png", "cx": 0.62, "cy": 0.79, "max_height": 0.2 },
+        { "type": "image", "name": "Paleontology", "image": "fossil.png", "cx": 0.7, "cy": 0.79, "max_height": 0.2 }
+      ]
+    }
+  ]
+}

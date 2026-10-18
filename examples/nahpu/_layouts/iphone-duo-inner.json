@@ -1,0 +1,249 @@
+{
+  "canvas": {
+    "width": 2007,
+    "height": 2853
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#BCE6D5",
+        "position": 0
+      },
+      {
+        "color": "#E2F4EC",
+        "position": 0.5
+      },
+      {
+        "color": "#F8FAE1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "../_captures/duo-inner",
+  "screens": [
+    {
+      "id": "01-specimens",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Every specimen,\nevery part",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "specimen-parts.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    },
+    {
+      "id": "02-dashboard",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "The whole expedition\nat a glance",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "dashboard.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    },
+    {
+      "id": "03-coordinates",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Unlimited points\nfor every site",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "site-coordinates.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    },
+    {
+      "id": "04-media",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Media filed\nwith the record",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "media-info.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    },
+    {
+      "id": "05-statistics",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Watch the inventory\ntake shape",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "statistics.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    },
+    {
+      "id": "06-projects",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "One catalog\nper expedition",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "home.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    },
+    {
+      "id": "07-darwin-core",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Darwin Core and\nFrictionless Data",
+          "font": "headline",
+          "size": 140,
+          "top": 0.055,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone Duo",
+          "source_dir": "../_captures/duo-inner",
+          "image": "darwin-core.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5655,
+          "max_width": 0.88,
+          "max_height": 0.765
+        }
+      ]
+    }
+  ]
+}

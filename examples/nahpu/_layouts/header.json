@@ -1,0 +1,88 @@
+{
+  "canvas": {
+    "width": 3840,
+    "height": 1646
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#BCE6D5",
+        "position": 0
+      },
+      {
+        "color": "#E2F4EC",
+        "position": 0.5
+      },
+      {
+        "color": "#F8FAE1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "../_captures/duo-inner",
+  "screens": [
+    {
+      "id": "header",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Outer, parts",
+          "source_dir": "../_captures/duo-outer",
+          "image": "specimen-parts.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.375,
+          "cy": 0.555,
+          "max_width": 0.2,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Outer, statistics",
+          "source_dir": "../_captures/duo-outer",
+          "image": "statistics.png",
+          "radius": 120,
+          "crop": [
+            0,
+            0,
+            254,
+            0
+          ],
+          "cx": 0.625,
+          "cy": 0.555,
+          "max_width": 0.2,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Inner, dashboard",
+          "source_dir": "../_captures/duo-inner",
+          "image": "dashboard.png",
+          "radius": 165,
+          "crop": [
+            0,
+            230,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.53,
+          "max_width": 0.3,
+          "max_height": 0.86
+        }
+      ]
+    }
+  ]
+}
