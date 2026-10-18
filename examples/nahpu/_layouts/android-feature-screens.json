@@ -1,0 +1,88 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 500
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#BCE6D5",
+        "position": 0
+      },
+      {
+        "color": "#E2F4EC",
+        "position": 0.5
+      },
+      {
+        "color": "#F8FAE1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "Merriweather-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
+    }
+  },
+  "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
+  "screens": [
+    {
+      "id": "feature-graphic-screens",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Left, dashboard",
+          "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
+          "image": "statistics-small-2.webp",
+          "radius": 150,
+          "crop": [
+            0,
+            175,
+            0,
+            0
+          ],
+          "cx": 0.37,
+          "cy": 0.56,
+          "max_width": 0.3,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Right, sites",
+          "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
+          "image": "sites-small.webp",
+          "radius": 150,
+          "crop": [
+            0,
+            175,
+            0,
+            0
+          ],
+          "cx": 0.63,
+          "cy": 0.56,
+          "max_width": 0.3,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Centre, specimen parts",
+          "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
+          "image": "specimens-small-2.webp",
+          "radius": 150,
+          "crop": [
+            0,
+            175,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.53,
+          "max_width": 0.3,
+          "max_height": 0.86
+        }
+      ]
+    }
+  ]
+}

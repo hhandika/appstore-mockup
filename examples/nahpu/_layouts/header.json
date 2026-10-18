@@ -26,61 +26,57 @@
       "file": "/Users/hhandika/Codes/Flutter/nahpu/assets/fonts/Merriweather-Bold.ttf"
     }
   },
-  "source_dir": "../_captures/duo-inner",
+  "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
   "screens": [
     {
       "id": "header",
       "elements": [
         {
           "type": "device",
-          "name": "Outer, parts",
-          "source_dir": "../_captures/duo-outer",
-          "image": "specimen-parts.png",
-          "radius": 120,
+          "name": "iPad, specimen record",
+          "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
+          "image": "specimens-large.webp",
+          "radius": 54,
           "crop": [
             0,
+            60,
             0,
-            254,
             0
           ],
-          "cx": 0.375,
-          "cy": 0.555,
-          "max_width": 0.2,
-          "max_height": 0.74
+          "cx": 0.47,
+          "cy": 0.5,
+          "max_width": 0.6,
+          "max_height": 0.8,
+          "retouch": [
+            {
+              "box": [
+                2345,
+                1590,
+                2420,
+                1668
+              ],
+              "color": "#7E817E",
+              "tolerance": 72,
+              "grow": 2
+            }
+          ]
         },
         {
           "type": "device",
-          "name": "Outer, statistics",
-          "source_dir": "../_captures/duo-outer",
-          "image": "statistics.png",
-          "radius": 120,
+          "name": "iPhone, specimen parts",
+          "source_dir": "/Users/hhandika/Codes/Websites/nahpu-docs/src/assets/images/app-screenshots/usage",
+          "image": "specimens-small-2.webp",
+          "radius": 150,
           "crop": [
             0,
-            0,
-            254,
-            0
-          ],
-          "cx": 0.625,
-          "cy": 0.555,
-          "max_width": 0.2,
-          "max_height": 0.74
-        },
-        {
-          "type": "device",
-          "name": "Inner, dashboard",
-          "source_dir": "../_captures/duo-inner",
-          "image": "dashboard.png",
-          "radius": 165,
-          "crop": [
-            0,
-            230,
+            175,
             0,
             0
           ],
-          "cx": 0.5,
-          "cy": 0.53,
+          "cx": 0.665,
+          "cy": 0.56,
           "max_width": 0.3,
-          "max_height": 0.86
+          "max_height": 0.78
         }
       ]
     }
