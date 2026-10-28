@@ -1,0 +1,85 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 500
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#CFE3DF",
+        "position": 0
+      },
+      {
+        "color": "#EEF3F1",
+        "position": 0.5
+      },
+      {
+        "color": "#F1E7E1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "LibreBaskerville-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/mdd_app/assets/fonts/LibreBaskerville-Bold.ttf"
+    }
+  },
+  "source_dir": "../_captures/android-phone",
+  "screens": [
+    {
+      "id": "feature-graphic-screens",
+      "elements": [
+        {
+          "type": "device",
+          "name": "Left, species",
+          "image": "species.png",
+          "radius": 95,
+          "crop": [
+            0,
+            130,
+            0,
+            0
+          ],
+          "cx": 0.37,
+          "cy": 0.56,
+          "max_width": 0.3,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Right, map",
+          "image": "map.png",
+          "radius": 95,
+          "crop": [
+            0,
+            130,
+            0,
+            0
+          ],
+          "cx": 0.63,
+          "cy": 0.56,
+          "max_width": 0.3,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Centre, home",
+          "image": "home.png",
+          "radius": 95,
+          "crop": [
+            0,
+            130,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.53,
+          "max_width": 0.3,
+          "max_height": 0.86
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "canvas": {
+    "width": 1206,
+    "height": 2622
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#CFE3DF",
+        "position": 0
+      },
+      {
+        "color": "#EEF3F1",
+        "position": 0.5
+      },
+      {
+        "color": "#F1E7E1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "LibreBaskerville-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/mdd_app/assets/fonts/LibreBaskerville-Bold.ttf"
+    }
+  },
+  "source_dir": "../_captures/iphone",
+  "screens": [
+    {
+      "id": "01-home",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Expert-curated\nmammalian taxonomy",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "home.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "02-search",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Find any species,\neven offline",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "search.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "03-species",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Names, taxonomy,\nand photos together",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "species.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "04-map",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "See where\neach species lives",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "map.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "05-tree",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Browse the mammal\nfamily tree",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "tree.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "06-gallery",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Thousands of photos\nto explore",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "gallery.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "07-stats",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "The numbers behind\nmammal diversity",
+          "font": "headline",
+          "size": 82,
+          "color": "#273A39",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iPhone",
+          "image": "stats.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    }
+  ]
+}

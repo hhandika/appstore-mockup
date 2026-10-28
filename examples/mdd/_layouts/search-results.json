@@ -1,0 +1,94 @@
+{
+  "canvas": {
+    "width": 3840,
+    "height": 2560
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#CFE3DF",
+        "position": 0
+      },
+      {
+        "color": "#EEF3F1",
+        "position": 0.5
+      },
+      {
+        "color": "#F1E7E1",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "LibreBaskerville-Bold",
+      "file": "/Users/hhandika/Codes/Flutter/mdd_app/assets/fonts/LibreBaskerville-Bold.ttf"
+    }
+  },
+  "source_dir": "../_captures/ipad",
+  "screens": [
+    {
+      "id": "search-results",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Headline",
+          "text": "Expert-curated mammalian taxonomy",
+          "font": "headline",
+          "size": 150,
+          "color": "#273A39",
+          "top": 0.07,
+          "max_width": 0.8
+        },
+        {
+          "type": "device",
+          "name": "iPad, species page",
+          "source_dir": "../_captures/ipad",
+          "image": "species.png",
+          "radius": 62,
+          "crop": [
+            0,
+            70,
+            0,
+            0
+          ],
+          "cx": 0.45,
+          "cy": 0.58,
+          "max_width": 0.6,
+          "max_height": 0.62,
+          "retouch": [
+            {
+              "box": [
+                2685,
+                1995,
+                2752,
+                2064
+              ],
+              "color": "#808080",
+              "tolerance": 40,
+              "grow": 2
+            }
+          ]
+        },
+        {
+          "type": "device",
+          "name": "iPhone, home",
+          "source_dir": "../_captures/iphone",
+          "image": "home.png",
+          "radius": 92,
+          "crop": [
+            0,
+            180,
+            0,
+            0
+          ],
+          "cx": 0.68,
+          "cy": 0.6,
+          "max_width": 0.3,
+          "max_height": 0.64
+        }
+      ]
+    }
+  ]
+}

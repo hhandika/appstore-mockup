@@ -103,7 +103,7 @@ It writes a flattened preview per screen to `previews/`, every layer as a canvas
 
 ```json
 {
-  "canvas": { "width": 1320, "height": 2868 },
+  "canvas": { "width": 1206, "height": 2622 },
   "background": {
     "direction": "to-bottom-right",
     "stops": [
@@ -119,7 +119,7 @@ It writes a flattened preview per screen to `previews/`, every layer as a canvas
     {
       "id": "01-specimens",
       "elements": [
-        { "type": "text", "text": "Every specimen,\nevery part", "font": "headline", "size": 100, "top": 0.058 },
+        { "type": "text", "text": "Every specimen,\nevery part", "font": "headline", "size": 91, "top": 0.058 },
         { "type": "device", "image": "phone.png", "radius": 92, "crop": [0, 180, 0, 0], "cy": 0.56, "max_width": 0.9, "max_height": 0.76 }
       ]
     }
@@ -133,7 +133,7 @@ It writes a flattened preview per screen to `previews/`, every layer as a canvas
 - `image` elements place a plain image, such as a logo, with optional `opacity`.
 - `device` and `image` elements can set their own `source_dir`, resolved against the spec's folder, for screens kept apart from the spec's main `source_dir`, such as fresh captures.
 - `frame` tunes the glass mat in CSS pixels of a 500px reference panel, scaled to the canvas: `border`, `color`, `backdrop_blur`, `hairline`, and the `shadow_*` values.
-- `compose` warns when the canvas matches no size App Store Connect accepts: screenshots (including iPhone Duo inner 2007×2853 and outer 1398×2034, either orientation), the product page header (3840×1646), or a 3:2 search results image (1920×1280 to 3840×2560).
+- `compose` warns when the canvas matches no size App Store Connect accepts: screenshots (iPhone 1179×2556 or 1206×2622, iPhone Duo inner 2007×2853 and outer 1398×2034, either orientation), iPhone app previews (886×1920, either orientation), the product page header (3840×1646), or a 3:2 search results image (1920×1280 to 3840×2560).
 - Relative `source_dir` and font paths resolve against the spec's folder. Screenshots with an embedded colour profile, such as Display P3, are converted to sRGB.
 
 ## Photoshop masters (macOS)

@@ -7,9 +7,13 @@ portrait or as listed; the landscape form of a screenshot size is accepted too.
 SCREENSHOT_SIZES: dict[str, list[tuple[int, int]]] = {
     "iPhone Duo inner display": [(2007, 2853)],
     "iPhone Duo outer display": [(1398, 2034)],
-    "iPhone with Dynamic Island (large display)": [(1260, 2736), (1290, 2796), (1320, 2868)],
-    "iPhone with Dynamic Island (medium display)": [(1179, 2556), (1206, 2622)],
+    "iPhone": [(1179, 2556), (1206, 2622)],
     "iPad 13-inch": [(2064, 2752), (2048, 2732)],
+}
+
+# App previews (video); the landscape form is accepted too.
+PREVIEW_SIZES: dict[str, list[tuple[int, int]]] = {
+    "iPhone app preview": [(886, 1920)],
 }
 
 # Creative assets are landscape only.
@@ -25,6 +29,9 @@ SEARCH_RESULTS_RANGE = ((1920, 1280), (3840, 2560))
 def asset_kind(width: int, height: int) -> str | None:
     """The App Store asset a canvas of this size can be uploaded as, if any."""
     for name, sizes in SCREENSHOT_SIZES.items():
+        if (width, height) in sizes or (height, width) in sizes:
+            return name
+    for name, sizes in PREVIEW_SIZES.items():
         if (width, height) in sizes or (height, width) in sizes:
             return name
     for name, sizes in CREATIVE_SIZES.items():

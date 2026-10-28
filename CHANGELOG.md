@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `compose` warns when a canvas matches no App Store screenshot, product page header, or search results size.
 
 ### Changed
+- iPhone screenshot sizes are now 1179×2556 and 1206×2622 only; 1260×2736, 1290×2796, and 1320×2868 are no longer accepted. `compose` also recognises iPhone app preview sizes (886×1920, either orientation).
 - Screenshots with an embedded colour profile are converted to sRGB when composed.
 
 ## [0.1.0] - 2026-06-11
