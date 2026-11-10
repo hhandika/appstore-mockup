@@ -1,0 +1,280 @@
+{
+  "canvas": {
+    "width": 1206,
+    "height": 2622
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#CDE8D2",
+        "position": 0
+      },
+      {
+        "color": "#EEF5EA",
+        "position": 0.5
+      },
+      {
+        "color": "#FAF1D2",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "AvenirNext-Bold",
+      "file": "/System/Library/Fonts/Avenir Next.ttc"
+    }
+  },
+  "source_dir": "../_captures/iphone",
+  "screens": [
+    {
+      "id": "01-home",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Phylogenomic tools\nin your pocket",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "home-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "02-viewer-alignment",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Explore alignments\nbase by base",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "viewer-alignment-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "03-align-concat",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Build a supermatrix\nin seconds",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "align-concat-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "04-align-summary",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Summarize\nalignment statistics",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "align-summary-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "05-genomic-read",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Check read quality\nanywhere",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "genomic-read-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "06-genomic-contig",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Assess assemblies\nwith contig stats",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "genomic-contig-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "07-sequence-translate",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Translate, rename,\nand filter sequences",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "sequence-translate-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    },
+    {
+      "id": "08-viewer",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Caption",
+          "text": "Preview files\nbefore you run",
+          "font": "headline",
+          "size": 82,
+          "color": "#16351F",
+          "top": 0.058,
+          "max_width": 0.92
+        },
+        {
+          "type": "device",
+          "name": "iphone",
+          "image": "viewer-small.png",
+          "radius": 92,
+          "crop": [
+            0,
+            150,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5593,
+          "max_width": 0.9,
+          "max_height": 0.763
+        }
+      ]
+    }
+  ]
+}

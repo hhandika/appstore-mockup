@@ -1,0 +1,108 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 500
+  },
+  "background": {
+    "direction": "to-bottom-right",
+    "stops": [
+      {
+        "color": "#CDE8D2",
+        "position": 0
+      },
+      {
+        "color": "#EEF5EA",
+        "position": 0.5
+      },
+      {
+        "color": "#FAF1D2",
+        "position": 1
+      }
+    ]
+  },
+  "fonts": {
+    "headline": {
+      "postscript_name": "AvenirNext-Bold",
+      "file": "/System/Library/Fonts/Avenir Next.ttc"
+    }
+  },
+  "source_dir": "../_captures/android-phone",
+  "screens": [
+    {
+      "id": "feature-graphic",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Wordmark",
+          "text": "SEGUI",
+          "font": "headline",
+          "size": 96,
+          "tracking": 60,
+          "color": "#16351F",
+          "cx": 0.27,
+          "top": 0.3,
+          "max_width": 0.46
+        },
+        {
+          "type": "text",
+          "name": "Tagline",
+          "text": "Phylogenomic data,\nmade simple",
+          "font": "headline",
+          "size": 30,
+          "color": "#3E5B45",
+          "cx": 0.27,
+          "top": 0.56,
+          "max_width": 0.46
+        },
+        {
+          "type": "device",
+          "name": "Left, alignment viewer",
+          "image": "viewer-alignment-small.png",
+          "radius": 95,
+          "crop": [
+            0,
+            90,
+            0,
+            0
+          ],
+          "cx": 0.57,
+          "cy": 0.56,
+          "max_width": 0.2,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Right, summary",
+          "image": "align-summary-small.png",
+          "radius": 95,
+          "crop": [
+            0,
+            90,
+            0,
+            0
+          ],
+          "cx": 0.89,
+          "cy": 0.56,
+          "max_width": 0.2,
+          "max_height": 0.74
+        },
+        {
+          "type": "device",
+          "name": "Centre, home",
+          "image": "home-small.png",
+          "radius": 95,
+          "crop": [
+            0,
+            90,
+            0,
+            0
+          ],
+          "cx": 0.73,
+          "cy": 0.53,
+          "max_width": 0.2,
+          "max_height": 0.86
+        }
+      ]
+    }
+  ]
+}
