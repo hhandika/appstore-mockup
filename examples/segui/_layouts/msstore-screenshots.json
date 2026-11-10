@@ -20,27 +20,11 @@
       }
     ]
   },
-  "fonts": {
-    "headline": {
-      "postscript_name": "SegoeUI-Bold",
-      "file": "C:/Windows/Fonts/segoeuib.ttf"
-    }
-  },
   "source_dir": "../_captures/windows",
   "screens": [
     {
       "id": "01-home",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Phylogenomic tools on every platform",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -53,25 +37,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "02-viewer-alignment",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Explore alignments base by base",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -84,25 +58,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "03-align-concat",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Build a supermatrix in seconds",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -115,25 +79,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "04-align-summary",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Summarize alignment statistics",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -146,25 +100,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "05-genomic-read",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Check read quality anywhere",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -177,25 +121,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "06-genomic-contig",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Assess assemblies with contig stats",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -208,25 +142,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "07-sequence-translate",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Translate, rename, and filter sequences",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -239,25 +163,15 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     },
     {
       "id": "08-viewer",
       "elements": [
-        {
-          "type": "text",
-          "name": "Caption",
-          "text": "Preview files before you run",
-          "font": "headline",
-          "size": 128,
-          "color": "#16351F",
-          "top": 0.065,
-          "max_width": 0.92
-        },
         {
           "type": "device",
           "name": "windows",
@@ -270,9 +184,51 @@
             0
           ],
           "cx": 0.5,
-          "cy": 0.58,
-          "max_width": 0.9,
-          "max_height": 0.76
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
+        }
+      ]
+    },
+    {
+      "id": "09-read-quality",
+      "elements": [
+        {
+          "type": "device",
+          "name": "windows",
+          "image": "read-report-quality-large.png",
+          "radius": 30,
+          "crop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
+        }
+      ]
+    },
+    {
+      "id": "10-read-composition",
+      "elements": [
+        {
+          "type": "device",
+          "name": "windows",
+          "image": "read-report-composition-large.png",
+          "radius": 30,
+          "crop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cx": 0.5,
+          "cy": 0.5,
+          "max_width": 0.92,
+          "max_height": 0.88
         }
       ]
     }

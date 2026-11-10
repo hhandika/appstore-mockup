@@ -15,53 +15,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Phylogenomic tools on every platform"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            767.5,
-            140.4,
-            3072.5,
-            268.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\01-home\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -83,53 +63,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Explore alignments base by base"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            944.0,
-            140.4,
-            2896.0,
-            266.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\02-viewer-alignment\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -151,53 +111,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Build a supermatrix in seconds"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            1003.0,
-            140.4,
-            2837.0,
-            264.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\03-align-concat\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -219,53 +159,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Summarize alignment statistics"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            985.5,
-            140.4,
-            2854.5,
-            266.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\04-align-summary\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -287,53 +207,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Check read quality anywhere"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            1054.5,
-            140.4,
-            2785.5,
-            266.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\05-genomic-read\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -355,53 +255,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Assess assemblies with contig stats"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            873.5,
-            140.4,
-            2966.5,
-            266.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\06-genomic-contig\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -423,53 +303,33 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Translate, rename, and filter sequences"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            748.5,
-            140.4,
-            3091.5,
-            266.4
-          ]
-        },
-        {
           "kind": "group",
           "name": "windows",
           "layers": [
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\07-sequence-translate\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
@@ -491,24 +351,52 @@
           "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\00-background.png"
         },
         {
-          "kind": "text",
-          "name": "Caption",
-          "lines": [
-            "Preview files before you run"
-          ],
-          "font": "SegoeUI-Bold",
-          "size": 128.0,
-          "color": "#16351F",
-          "tracking": 0,
-          "leading": 153.6,
-          "cx": 1920.0,
-          "ink_top": 140.4,
-          "ink_box": [
-            1077.5,
-            140.4,
-            2762.5,
-            268.4
+          "kind": "group",
+          "name": "windows",
+          "layers": [
+            {
+              "kind": "raster",
+              "name": "Shadow",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\01-shadow.png"
+            },
+            {
+              "kind": "raster",
+              "name": "Glass mat",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\01-glass-mat.png"
+            },
+            {
+              "kind": "raster",
+              "name": "Screen shape",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\01-screen-shape.png"
+            },
+            {
+              "kind": "smart",
+              "name": "Screenshot",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\01-screenshot.png",
+              "box": [
+                400,
+                130,
+                3041,
+                1901
+              ],
+              "clip": true
+            }
           ]
+        }
+      ]
+    },
+    {
+      "id": "09-read-quality",
+      "canvas": [
+        3840,
+        2160
+      ],
+      "preview": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\previews\\09-read-quality.png",
+      "layers": [
+        {
+          "kind": "raster",
+          "name": "Background",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\09-read-quality\\00-background.png"
         },
         {
           "kind": "group",
@@ -517,27 +405,75 @@
             {
               "kind": "raster",
               "name": "Shadow",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\02-shadow.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\09-read-quality\\01-shadow.png"
             },
             {
               "kind": "raster",
               "name": "Glass mat",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\02-glass-mat.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\09-read-quality\\01-glass-mat.png"
             },
             {
               "kind": "raster",
               "name": "Screen shape",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\02-screen-shape.png"
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\09-read-quality\\01-screen-shape.png"
             },
             {
               "kind": "smart",
               "name": "Screenshot",
-              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\08-viewer\\02-screenshot.png",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\09-read-quality\\01-screenshot.png",
               "box": [
-                606,
-                432,
-                2627,
-                1642
+                400,
+                130,
+                3041,
+                1901
+              ],
+              "clip": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-read-composition",
+      "canvas": [
+        3840,
+        2160
+      ],
+      "preview": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\previews\\10-read-composition.png",
+      "layers": [
+        {
+          "kind": "raster",
+          "name": "Background",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\10-read-composition\\00-background.png"
+        },
+        {
+          "kind": "group",
+          "name": "windows",
+          "layers": [
+            {
+              "kind": "raster",
+              "name": "Shadow",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\10-read-composition\\01-shadow.png"
+            },
+            {
+              "kind": "raster",
+              "name": "Glass mat",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\10-read-composition\\01-glass-mat.png"
+            },
+            {
+              "kind": "raster",
+              "name": "Screen shape",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\10-read-composition\\01-screen-shape.png"
+            },
+            {
+              "kind": "smart",
+              "name": "Screenshot",
+              "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-screenshots\\layers\\10-read-composition\\01-screenshot.png",
+              "box": [
+                400,
+                130,
+                3041,
+                1901
               ],
               "clip": true
             }
