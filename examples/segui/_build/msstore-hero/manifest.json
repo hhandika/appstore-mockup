@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "screens": [
+    {
+      "id": "super-hero-art",
+      "canvas": [
+        3840,
+        2160
+      ],
+      "preview": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-hero\\previews\\super-hero-art.png",
+      "layers": [
+        {
+          "kind": "raster",
+          "name": "Background",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-hero\\layers\\super-hero-art\\00-background.png"
+        },
+        {
+          "kind": "raster",
+          "name": "Alignment matrix",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-hero\\layers\\super-hero-art\\01-image.png"
+        },
+        {
+          "kind": "raster",
+          "name": "Mark",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-hero\\layers\\super-hero-art\\02-image.png"
+        }
+      ]
+    }
+  ]
+}

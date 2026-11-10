@@ -1,0 +1,14 @@
+{
+  "canvas": {"width": 3840, "height": 2160},
+  "background": {"direction": "to-bottom-right", "stops": [{"color": "#009245", "position": 0}, {"color": "#00813F", "position": 0.3}, {"color": "#006E39", "position": 0.71}, {"color": "#006837", "position": 1}]},
+  "source_dir": "../_brand",
+  "screens": [
+    {
+      "id": "super-hero-art",
+      "elements": [
+        {"type": "image", "name": "Alignment matrix", "image": "matrix.png", "cx": 0.5, "cy": 0.5, "max_width": 1.0, "max_height": 1.0, "opacity": 0.55},
+        {"type": "image", "name": "Mark", "image": "mark-trim.png", "cx": 0.5, "cy": 0.42, "max_width": 0.36, "max_height": 0.4}
+      ]
+    }
+  ]
+}

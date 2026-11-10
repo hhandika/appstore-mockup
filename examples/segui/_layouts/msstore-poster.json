@@ -1,0 +1,17 @@
+{
+  "canvas": {"width": 1440, "height": 2160},
+  "background": {"direction": "to-bottom-right", "stops": [{"color": "#009245", "position": 0}, {"color": "#00813F", "position": 0.3}, {"color": "#006E39", "position": 0.71}, {"color": "#006837", "position": 1}]},
+  "fonts": {"headline": {"postscript_name": "SegoeUI-Bold", "file": "C:/Windows/Fonts/segoeuib.ttf"}, "body": {"postscript_name": "SegoeUI-Semibold", "file": "C:/Windows/Fonts/seguisb.ttf"}},
+  "source_dir": "../_brand",
+  "screens": [
+    {
+      "id": "poster-art",
+      "elements": [
+        {"type": "image", "name": "Alignment matrix", "image": "matrix.png", "cx": 0.5, "cy": 0.5, "max_width": 3.0, "max_height": 1.0, "opacity": 0.4},
+        {"type": "image", "name": "Mark", "image": "mark-trim.png", "cx": 0.5, "cy": 0.3, "max_width": 0.72, "max_height": 0.22},
+        {"type": "text", "name": "Title", "text": "SEGUI", "font": "headline", "size": 230, "tracking": 60, "color": "#FFFFFF", "top": 0.45, "max_width": 0.9},
+        {"type": "text", "name": "Tagline", "text": "Phylogenomic data,\nmade simple", "font": "body", "size": 84, "color": "#FFFFFF", "top": 0.555, "max_width": 0.86}
+      ]
+    }
+  ]
+}

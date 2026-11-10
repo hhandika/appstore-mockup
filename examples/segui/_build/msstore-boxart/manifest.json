@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "screens": [
+    {
+      "id": "box-art",
+      "canvas": [
+        2160,
+        2160
+      ],
+      "preview": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-boxart\\previews\\box-art.png",
+      "layers": [
+        {
+          "kind": "raster",
+          "name": "Background",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-boxart\\layers\\box-art\\00-background.png"
+        },
+        {
+          "kind": "raster",
+          "name": "Alignment matrix",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-boxart\\layers\\box-art\\01-image.png"
+        },
+        {
+          "kind": "raster",
+          "name": "Mark",
+          "file": "F:\\Programming\\Python\\appstore-mockup\\examples\\segui\\_build\\msstore-boxart\\layers\\box-art\\02-image.png"
+        },
+        {
+          "kind": "text",
+          "name": "Title",
+          "lines": [
+            "SEGUI"
+          ],
+          "font": "SegoeUI-Bold",
+          "size": 250.0,
+          "color": "#FFFFFF",
+          "tracking": 60,
+          "leading": 300.0,
+          "cx": 1080.0,
+          "ink_top": 950.4000000000001,
+          "ink_box": [
+            694.5,
+            950.4000000000001,
+            1465.5,
+            1131.4
+          ]
+        },
+        {
+          "kind": "text",
+          "name": "Tagline",
+          "lines": [
+            "Phylogenomic data, made simple"
+          ],
+          "font": "SegoeUI-Semibold",
+          "size": 92.0,
+          "color": "#FFFFFF",
+          "tracking": 0,
+          "leading": 110.39999999999999,
+          "cx": 1080.0,
+          "ink_top": 1155.6000000000001,
+          "ink_box": [
+            389.0,
+            1155.6000000000001,
+            1771.0,
+            1245.6000000000001
+          ]
+        }
+      ]
+    }
+  ]
+}
